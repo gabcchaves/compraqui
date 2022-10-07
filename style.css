@@ -260,4 +260,6 @@ input[type=text] {
 	.main-header .log-options > button:nth-child(even) {
 		margin: 0 10%;
 	}
+
+	/* Login page */
 }
