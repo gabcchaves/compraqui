@@ -41,6 +41,11 @@ input[type=text] {
 	font-size: 1rem;
 }
 
+input:not(input[type=submit]) {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+
 .btn-light {
 	background-color: var(--smoke-white);
 	color: var(--kaitoke-green);
@@ -206,6 +211,7 @@ input[type=text] {
 #login-page .card .card-content form input {
 	padding: 5%;
 	width: 90%;
+	font-size: 1rem;
 }
 
 #login-page .card .card-content form input:nth-child(even) {
@@ -213,7 +219,7 @@ input[type=text] {
 }
 
 #login-page .card .card-footer {
-	height: 10%;
+	height: 15%;
 	border-bottom-left-radius: inherit;
 	border-bottom-right-radius: inherit;
 	display: flex;
@@ -239,16 +245,16 @@ input[type=text] {
 
 #register-page .container .card {
 	background-color: var(--smoke-white);
-	width: 90%;
-	height: 80%;
 	border-radius: 5px;
 	box-shadow: 0 0 10px lightgray;
 	display: flex;
 	flex-direction: column;
+	padding: 1% 0;
+	width: 90%;
 }
 
 #register-page .card .card-header {
-	height: 10%;
+	height: 20%;
 	text-align: center;
 }
 
@@ -272,7 +278,9 @@ input[type=text] {
 #register-page .card .card-content form input {
 	padding: 5%;
 	width: 90%;
+	font-size: 1rem;
 }
+
 
 #register-page .card .card-content form input:first-child {
 	background-color: var(--white);
@@ -283,7 +291,7 @@ input[type=text] {
 }
 
 #register-page .card .card-footer {
-	height: 10%;
+	padding: 2% 0;
 	border-bottom-left-radius: inherit;
 	border-bottom-right-radius: inherit;
 	display: flex;
