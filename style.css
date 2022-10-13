@@ -129,6 +129,7 @@ input:not(input[type=submit]) {
 .main-header .search-area > input[type=text] {
 	height: 70%;
 	flex: 1;
+	padding: 0 2%;
 }
 
 .main-header .search-area > button {
