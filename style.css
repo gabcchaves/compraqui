@@ -24,7 +24,7 @@ html, body {
 	outline: none;
 }
 
-*:focus:not(button):not(input[type=submit]) {
+*:focus:not(button):not(input[type=submit]):not(a) {
 	outline: 1px solid var(--kaitoke-green);
 }
 
@@ -122,7 +122,7 @@ input[type=text] {
 }
 
 .main-header .search-area > input[type=text] {
-	padding: 3%;
+	height: 70%;
 	flex: 1;
 }
 
@@ -141,11 +141,17 @@ input[type=text] {
 	width: 10%;
 }
 
-.main-header .log-options button {
-	padding: 5% 0;
+.main-header .log-options {
+	height: 100%;
 }
 
-.main-header .log-options button:nth-child(even) {
+.main-header .log-options a {
+	padding: 5% 0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.main-header .log-options a:nth-child(even) {
 	margin: 5% 0;
 }
 
@@ -294,7 +300,7 @@ input[type=text] {
 	}
 
 	.main-header .search-area input[type=text]{
-		padding: 1%;
+		height: 70%;
 	}
 
 	.main-header .search-area button {
@@ -316,13 +322,15 @@ input[type=text] {
 		display: flex;
 		width: 20%;
 		justify-content: flex-end;
+		align-items: center;
 	}
 
-	.main-header .log-options > button {
+	.main-header .log-options > a {
 		font-size: 1rem;
+		margin: 0 5%;
 	}
 
-	.main-header .log-options > button:hover {
+	.main-header .log-options > a:hover {
 		background-color: inherit;
 		text-shadow: 0 0 1px var(--white);
 	}
