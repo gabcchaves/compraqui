@@ -102,6 +102,10 @@ input:not(input[type=submit]) {
 	height: 10vh;
 }
 
+.main-header .logo-area {
+	color: var(--white);
+}
+
 /* Menu */
 .main-header .log-options {
 	position: absolute;
