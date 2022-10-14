@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+/* COLORS */
+:root {
+	--olive-green: #708238;
+	--smoke-white: #F2F2F2;
+	--kaitoke-green: #004830;
+	--white: #FFFFFF;
+	--medium-spring-bud: #C9DC87;
+	--grayish-green: #CDC;
+}
+
+/* RESETTINGS */
+html, body {
+	margin: 0;
+	padding: 0;
+	font-size: 18px;
+}
+
+* {
+	transition: 0.2s;
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: content-box;
+	outline: none;
+}
+
+*:focus:not(button):not(input[type=submit]):not(a) {
+	outline: 1px solid var(--kaitoke-green);
+}
+
+button, input[type=submit] {
+	border: none;
+	border-radius: 5px;
+	font-weight: bold;
+}
+
+input[type=text] {
+	background-color: var(--smoke-white);
+	border: 1px solid var(--kaitoke-green);
+	border-radius: 3px;
+	font-size: 1rem;
+}
+
+input:not(input[type=submit]) {
+	border: 1px solid lightgray;
+	border-radius: 5px;
+}
+
+.btn-light {
+	background-color: var(--smoke-white);
+	color: var(--kaitoke-green);
+}
+
+.btn-light:hover {
+	background-color: var(--olive-green);
+	color: var(--smoke-white);
+	cursor: pointer;
+}
+
+.btn-dark {
+	background-color: var(--olive-green);
+	color: var(--smoke-white);
+}
+
+.btn-dark:hover {
+	background-color: var(--kaitoke-green);
+	color: var(--white);
+	cursor: pointer;
+}
+
+.link-light {
+	color: var(smoke-white);
+	text-decoration: none;
+}
+
+.link-light:hover {
+	color: var(--white);
+}
+
+.link-dark {
+	color: var(--olive-green);
+	text-decoration: none;
+}
+
+.link-dark:hover {
+	color: var(--kaitoke-green);
+}
+
+.text-light {
+	color: var(--white);
+}
+
+.text-dark {
+	color: var(--kaitoke-green);
+}
+
+/* MOBILE SETTINGS */
+.main-header {
+	display: flex;
+	background-color: var(--olive-green);
+	color: var(--smoke-green);
+	height: 10vh;
+}
+
+/* Menu */
+.main-header .log-options {
+	position: absolute;
+	display: none;
+	flex-direction: column;
+	top: 10vh;
+	left: 5vw;
+	right: 5vw;
+	padding: 5%;
+	background-color: var(--smoke-white);
+	box-shadow: 0 0 100vh var(--kaitoke-green);
+	border-radius: 5px;
+}
+
+.main-header .logo-area {
+	display: none;
+}
+
+.main-header .search-area {
+	display: flex;
+	align-items: center;
+	flex: 1;
+}
+
+.main-header .search-area > input[type=text] {
+	height: 70%;
+	flex: 1;
+	padding: 0 2%;
+}
+
+.main-header .search-area > button {
+	width: 10%;
+	margin-left: 1%;
+	background-color: inherit;
+	font-size: 2rem;
+	color: var(--smoke-white);
+}
+
+.main-header > .menu {
+	background-color: inherit;
+	color: var(--smoke-white);
+	font-size: 2rem;
+	width: 10%;
+}
+
+.main-header .log-options {
+	height: 100%;
+}
+
+.main-header .log-options a {
+	padding: 5% 0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.main-header .log-options a:nth-child(even) {
+	margin: 5% 0;
+}
+
+/* Login page */
+#login-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+#login-page .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+#login-page .container .card {
+	background-color: var(--smoke-white);
+	width: 90%;
+	height: 80%;
+	border-radius: 5px;
+	box-shadow: 0 0 10px lightgray;
+	display: flex;
+	flex-direction: column;
+}
+
+#login-page .card .card-header {
+	height: 10%;
+	text-align: center;
+}
+
+#login-page .card .card-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+
+#login-page .card .card-content form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+#login-page .card .card-content form input {
+	padding: 5%;
+	width: 90%;
+	font-size: 1rem;
+}
+
+#login-page .card .card-content form input:nth-child(even) {
+	margin: 5% 0;
+}
+
+#login-page .card .card-footer {
+	height: 15%;
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Register page */
+#register-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+#register-page .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+#register-page .container .card {
+	background-color: var(--smoke-white);
+	border-radius: 5px;
+	box-shadow: 0 0 10px lightgray;
+	display: flex;
+	flex-direction: column;
+	padding: 1% 0;
+	width: 90%;
+}
+
+#register-page .card .card-header {
+	height: 20%;
+	text-align: center;
+}
+
+#register-page .card .card-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+
+#register-page .card .card-content form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+#register-page .card .card-content form input {
+	padding: 5%;
+	width: 90%;
+	font-size: 1rem;
+}
+
+
+#register-page .card .card-content form input:first-child {
+	background-color: var(--white);
+}
+
+#register-page .card .card-content form input:nth-child(even) {
+	margin: 5% 0;
+}
+
+#register-page .card .card-footer {
+	padding: 2% 0;
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* LARGER DEVICES SETTINGS */
+@media screen and (min-width: 1081px) {
+	.main-header {
+		height: 10vh;
+		padding: 0 10%;
+		box-shadow: 0 2px 3px lightgray;
+	}
+
+	.main-header .search-area input[type=text]{
+		height: 70%;
+	}
+
+	.main-header .search-area button {
+		width: 5%;
+		padding: 0;
+	}
+
+	.main-header .search-area button:hover {
+		text-shadow: 0 0 1px var(--white);
+		cursor: pointer;
+	}
+	
+	.main-header .menu {
+		display: none;
+	}
+
+	.main-header .log-options {
+		all: unset;
+		display: flex;
+		width: 20%;
+		justify-content: flex-end;
+		align-items: center;
+	}
+
+	.main-header .log-options > a {
+		font-size: 1rem;
+		margin: 0 5%;
+	}
+
+	.main-header .log-options > a:hover {
+		background-color: inherit;
+		text-shadow: 0 0 1px var(--white);
+	}
+
+	.main-header .log-options > button:nth-child(even) {
+		margin: 0 10%;
+	}
+
+	/* Login page */
+	#login-page .container .card {
+		width: 40%;
+	}
+
+	/* Register page */
+	#register-page .container .card {
+		width: 40%;
+	}
+}
