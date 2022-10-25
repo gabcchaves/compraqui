@@ -29,4 +29,4 @@ Compraqui é um **projeto avaliativo da disciplina de programação para web** d
 	- Preço
 	- Quantidade
 - O sistema deve permitir a compra de produtos, dada a quantidade desejada e a senha na autenticação.
-- O sistema só deve efetivar compra de produtos se o usuário estiver autenticado, e se o saldo em sua carteira for suficiente à compra.****
+- O sistema só deve efetivar compra de produtos se o usuário estiver autenticado, e se o saldo em sua carteira for suficiente à compra.
