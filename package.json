@@ -1,0 +1,12 @@
+{
+  "name": "compraqui",
+  "version": "1.0.0",
+  "description": "Simulação de loja virtual.",
+  "main": "index.html",
+  "repository": "git@github.com:gabcchaves/compraqui.git",
+  "author": "Gabriel Costa Chaves <gabcchaves@zohomail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jquery": "^3.6.1"
+  }
+}
