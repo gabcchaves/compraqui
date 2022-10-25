@@ -2,7 +2,7 @@
 Compraqui é um **projeto avaliativo da disciplina de programação para web** do curso de ciência da computação da UFOPA.
 
 ## Documento de visão
-[Documento de Visão](https://docs.google.com/document/d/1iKREQ6ZBxhCZRAqSQzwqt6LYVD_vGgBPIaH7wz-FJ08/edit?usp=sharing)
+<a href="https://docs.google.com/document/d/1iKREQ6ZBxhCZRAqSQzwqt6LYVD_vGgBPIaH7wz-FJ08/edit?usp=sharing" target="_blank">Documento de Visão</a>
 
 ## Suma dos requisitos funcionais
 - O sistema deve realizar cadastro de usuários, os quais devem forncecer os seguintes dados:
