@@ -1,0 +1,73 @@
+/* Login page */
+#login-page {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	height: 100vh;
+}
+
+#login-page .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	flex: 1;
+}
+
+#login-page .container .card {
+	background-color: var(--smoke-white);
+	width: 90%;
+	height: 80%;
+	border-radius: 5px;
+	box-shadow: 0 0 10px lightgray;
+	display: flex;
+	flex-direction: column;
+}
+
+#login-page .card .card-header {
+	height: 10%;
+	text-align: center;
+}
+
+#login-page .card .card-content {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	width: 100%;
+	padding: 0 5%;
+	box-sizing: border-box;
+}
+
+#login-page .card .card-content form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+}
+
+#login-page .card .card-content form input {
+	padding: 5%;
+	width: 90%;
+	font-size: 1rem;
+}
+
+#login-page .card .card-content form input:nth-child(even) {
+	margin: 5% 0;
+}
+
+#login-page .card .card-footer {
+	height: 15%;
+	border-bottom-left-radius: inherit;
+	border-bottom-right-radius: inherit;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* LARGER DEVICES */
+@media screen and (min-width: 1080px) {
+	#login-page .container .card {
+		width: 40%;
+	}
+}
