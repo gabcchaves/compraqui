@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+		<title>Cadastrar</title>
+		<link rel="stylesheet" href="/view/css/general.css">
+		<link rel="stylesheet" href="/view/css/register.css">
+	</head>
+	<body>
+		<article class="card">
+			<div class="card-header">
+				<h1>Cadastrar usuário</h1>
+			</div>
+
+			<div class="card-content">
+				<form method="POST">
+					<input type="text" name="user_name" placeholder="Nome completo">
+					<input type="e-mail" name="user_email" placeholder="Endereço de e-mail">
+					<input type="password" name="user_password" placeholder="Senha">
+					<input type="password" name="user_password_confirm" placeholder="Confirme a senha">
+					<input type="submit" value="Próximo">
+				</form>
+			</div>
+
+			<div class="card-footer">
+				<small><a href="/view/user/login.html">Já tem conta?</a></small>
+			</div>
+		</article>
+	</body>
+</html>
+
