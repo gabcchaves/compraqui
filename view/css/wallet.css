@@ -1,0 +1,36 @@
+body {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.card {
+	position: absolute;
+	top: 50px;
+	width: 400px;
+	display: flex;
+	flex-direction: column;
+	background-color: var(--smoke-white);
+}
+
+.card-header {
+	display: flex;
+	justify-content: center;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	padding: 0 10%;
+	flex: 1;
+}
+
+.card-content > * {
+	height: 50px;
+}
+
+.card-content > *:nth-child(even) {
+	margin: 5% 0;
+}
