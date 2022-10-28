@@ -95,3 +95,34 @@ a {
 a:hover {
 	color: var(--carmine-red);
 }
+
+/* Buttons */
+button {
+	border: none;
+	border-radius: 5px;
+	background-color: var(--avocado-green);
+	color: var(--white-smoke);
+	font-weight: bold;
+}
+
+button:hover {
+	background-color: var(--kaitoke-green);
+}
+
+.sidebar-menu {
+	border-right: 1px solid var(--graphite-gray);
+	display: flex;
+	flex-direction: column;
+	padding: 1%;
+}
+
+.sidebar-menu-item {
+	border-radius: 0;
+	background-color: var(--platinum);
+	color: var(--graphite-gray);
+	padding: 1%;
+}
+
+.sidebar-menu-item:hover {
+	background-color: var(--x11-gray);
+}
