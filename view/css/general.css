@@ -11,6 +11,11 @@
 	outline: none;
 }
 
+body {
+	padding: 0;
+	margin: 0;
+}
+
 /* Colors */
 :root {
 	--white-smoke: #F5F5F5;
@@ -125,4 +130,5 @@ button:hover {
 
 .sidebar-menu-item:hover {
 	background-color: var(--x11-gray);
+	color: var(--kaitoke-green);
 }
