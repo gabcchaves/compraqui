@@ -19,6 +19,14 @@
 	color: var(--white-smoke);
 	width: 20%;
 	display: none;
+	position: relative;
+}
+
+#main-header .logo-area > a {
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	opacity: 0;
 }
 
 #main-header .search-area {
