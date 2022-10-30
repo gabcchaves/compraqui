@@ -6,8 +6,11 @@
 		<title>Cadastrar</title>
 		<link rel="stylesheet" href="/view/css/general.css">
 		<link rel="stylesheet" href="/view/css/register.css">
+		<link rel="stylesheet" href="/view/css/header.css">
+		<script src="/node_modules/jquery/dist/jquery.js"></script>
 	</head>
 	<body>
+		<header id="main-header"></header>
 		<article class="card">
 			<div class="card-header">
 				<h1>Cadastrar usuário</h1>
@@ -27,6 +30,9 @@
 				<small><a href="/view/user/login.html">Já tem conta?</a></small>
 			</div>
 		</article>
+		<script>
+			$("#main-header").load("/view/templates/header.html");
+		</script>
 	</body>
 </html>
 
