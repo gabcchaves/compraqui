@@ -9,7 +9,8 @@
 	font-size: 4vh;
 }
 
-#main-header .btn-menu {
+#main-header .btn-menu,
+#main-header #btn-search {
 	width: 10%;
 	height: 100%;
 }
@@ -22,19 +23,22 @@
 
 #main-header .search-area {
 	display: flex;
+	align-items: center;
+	height: 100%;
 	flex: 1;
-}
-
-#main-header .log-options {
-	display: none;
 }
 
 #main-header .search-area > input {
 	flex: 1;
+	height: 50%;
 }
 
 #main-header .search-area > button {
 	width: 20%;
+}
+
+#main-header .log-options {
+	display: none;
 }
 
 /* Larger screens */
