@@ -5,8 +5,9 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Compraqui</title>
 		<link rel="stylesheet" href="/view/css/general.css">
+		<link rel="stylesheet" href="/view/css/header.css">
 		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-		<script src="./node_modules/jquery/dist/jquery.min.js"></script>
+		<script src="/node_modules/jquery/dist/jquery.js"></script>
 	</head>
 	<body id="index-page">
 		<header id="main-header"></header>
@@ -22,9 +23,8 @@
 			-->
 		</section>
 		<script type="module">
-			import init from "./pkg/compraqui.js";
+			import init from "/pkg/compraqui.js";
 			init().then(() => {});
-
 		</script>
 		<script>
 			$("#main-header").load("/view/templates/header.html");
