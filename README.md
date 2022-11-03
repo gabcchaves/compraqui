@@ -40,3 +40,4 @@ Compraqui é um **projeto avaliativo da disciplina de programação para web** d
 - [*CSS*](https://www.w3schools.com/css/default.asp)
 - [*Rust*](https://www.rust-lang.org/)
 - [*SQLite*](https://www.sqlite.org/index.html)
+- [*Trunk*](https://trunkrs.dev/)
