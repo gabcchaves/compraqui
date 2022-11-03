@@ -1,35 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 	<head>
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Compraqui</title>
-		<link rel="stylesheet" href="/view/css/general.css">
-		<link rel="stylesheet" href="/view/css/header.css">
-		<link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-		<script src="/node_modules/jquery/dist/jquery.js"></script>
+		<link data-trunk rel="css" href="/static/css/general.css">
+		<link data-trunk rel="css" href="/static/css/header.css">
+		<link data-trunk rel="css" href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css'>
 	</head>
-	<body id="index-page">
-		<header id="main-header"></header>
-		<section id="product-list">
-			<!--
-			<article class="product-card">
-				<div class="preview"><img src="" alt="Imagem"></div>
-				<div class="description">
-					<h3>Título</h3>
-					<p>Descrição</p>
-				</div>
-			</article>
-			-->
-		</section>
-		<script type="module">
-			import init, { test } from "/pkg/compraqui.js";
-			init().then(() => {
-				test();
-			});
-		</script>
-		<script>
-			$("#main-header").load("/view/templates/header.html");
-		</script>
-	</body>
 </html>
