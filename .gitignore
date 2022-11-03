@@ -1,7 +1,12 @@
-node_modules/
 *.lock
-
+target/
+dist/
 
 # Added by cargo
 
 /Cargo.lock
+
+
+# Added by cargo
+
+/target
