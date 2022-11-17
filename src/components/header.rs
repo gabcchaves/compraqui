@@ -32,7 +32,7 @@ impl Component for Header {
         html! {
             <header id="main-header">
                 <div class="logo-area">
-                    <img src="static/img/bx-leaf.svg" alt="Logo"/>
+                    <img src="assets/img/bx-leaf.svg" alt="Logo"/>
                     <strong>{"Plantê"}</strong>
                 </div>
 
