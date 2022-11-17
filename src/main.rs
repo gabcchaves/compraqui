@@ -14,7 +14,7 @@ fn app() -> Html {
     html! {
         <BrowserRouter>
             <Header>
-            {"HI"}
+            {""}
             </Header>
             <Switch<Route> render={Switch::render(switch)}/>
         </BrowserRouter>
