@@ -1,8 +1,11 @@
 [package]
-name = "compraqui"
+name = "plante"
 version = "0.1.0"
 edition = "2021"
 authors = ["Gabriel Costa Chaves"]
+
+[dependencies]
+yew-router = "0.16.0"
 
 # dependencies
 [dependencies.wasm-bindgen]
