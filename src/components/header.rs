@@ -45,7 +45,7 @@ impl Component for Header {
                     <form id="search-form">
                         <input name="search-pattern" type="text" placeholder="Pesquisar"/>
                         <button type="submit">
-                            <img src="static/img/bx-search.svg" alt="Pesquisar"/>
+                            <img src="assets/img/bx-search.svg" alt="Pesquisar"/>
                         </button>
                     </form>
                 </div>
