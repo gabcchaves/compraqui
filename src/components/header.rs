@@ -1,8 +1,10 @@
 use yew::prelude::*;
+use yew_router::prelude::*;
+use crate::routes::Route;
 
 pub struct Header;
 
-#[derive(Properties, PartaialEq)]
+#[derive(Properties, PartialEq)]
 pub struct HeaderProps {
     // pub is_user_logged: bool,
     pub children: Children,
@@ -52,6 +54,7 @@ impl Component for Header {
                     <Link<Route> to={Route::Login}>{"Entrar"}</Link<Route>>
                     <Link<Route> to={Route::Register}>{"Cadastrar-se"}</Link<Route>>
                 </div>
+                { for ctx.props().children.iter() }
             </header>
         }
     }
