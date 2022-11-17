@@ -2,8 +2,21 @@
 name = "compraqui"
 version = "0.1.0"
 edition = "2021"
+authors = ["Gabriel Costa Chaves"]
 
-# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+# dependencies
+[dependencies.wasm-bindgen]
+version = "0.2.83"
 
-[dependencies]
-yew = "0.19.3"
+[dependencies.web-sys]
+version = "0.3.60"
+features = [
+	"Document",
+	"FormData",
+	"HtmlElement",
+	"HtmlFormElement",
+	"Window",
+]
+
+[dependencies.yew]
+version = "0.19.3"
