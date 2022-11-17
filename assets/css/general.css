@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:wght@400;700&display=swap');
+
+/* Cores */
+:root {
+	--avocado-green: #568203;
+	--napier-green: #2A8000;
+	--kaitoke-green: #004830;
+	--baby-powder: #FEFEFA;
+	--old-wood: #F0EEE4;
+	--graphite-gray: #4B4E53;
+}
+
+/* Redefinições */
+* {
+	transition: 0.2s;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 16px;
+	color: var(--graphite-gray);
+}
+
+button, input[type=submit] {
+	all: unset;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+input {
+	all: unset;
+}
+
+button, input {
+	border-radius: 3px;
+}
+
+input:not(input[type=submit]) {
+	background-color: var(--old-wood);
+}
+
+a {
+	text-decoration: none;
+	color: var(--napier-green);
+}
+
+a:hover {
+	color: var(--kaitoke-green);
+}
