@@ -2,14 +2,13 @@
 Plantê é um **projeto avaliativo da disciplina de programação para web** do curso de ciência da computação da UFOPA..É um sistema de comércio de plantas ornamentais e medicinais;
 
 ## Protótipo de tela
-[Prototipo de tela](https://www.figma.com/file/AYhwd1zrRmVuL7GLWZQSYW/Plant%C3%AA?node-id=0%3A1&t=FQgm3WDWDAG4enbc-1)
+[Prototipo de tela](https://drive.google.com/file/d/18YoRbxv3a8RAL9y43R_hckZMwR2YydyO/view?usp=share_link)
 
 ## Documento de visão
-<a href="https://docs.google.com/document/d/1iKREQ6ZBxhCZRAqSQzwqt6LYVD_vGgBPIaH7wz-FJ08/edit?usp=sharing" target="_blank">Documento de Visão</a>
+[Documento de visão](https://drive.google.com/file/d/1i28X1rz7wyAKXpp6_BNQsxbKQaFAIzr3/view?usp=share_link)
 
 ## Suma dos requisitos funcionais
-- Cadastro de usuários
-- Autenticação de usuários
-- Pesquisa de plantas
-- Consulta de planta
-- Carrinho
+- Gerenciamento de usuários
+- Pesquisa, filtragem e consulta de produtos
+- Carrinho de produtos
+- Compra de produtos
