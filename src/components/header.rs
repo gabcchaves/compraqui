@@ -31,6 +31,15 @@ impl Component for Header {
         let link = ctx.link();
         html! {
             <header id="main-header">
+                <div class="dropdown-menu">
+                    <button id="btn-menu">
+                        <img src="assets/img/bx-dots-horizontal-rounded.svg" alt="Menu"/>
+                    </button>
+                    <div class="dropdown-content">
+                        <Link<Route> to={Route::Login}>{"Entrar"}</Link<Route>>
+                        <Link<Route> to={Route::Register}>{"Cadastrar-se"}</Link<Route>>
+                    </div>
+                </div>
                 <div class="logo-area">
                     <img src="assets/img/bx-leaf.svg" alt="Logo"/>
                     <strong>{"Plantê"}</strong>
@@ -43,7 +52,7 @@ impl Component for Header {
 
                 <div class="search-area">
                     <form id="search-form">
-                        <input name="search-pattern" type="text" placeholder="Pesquisar"/>
+                        <input name="search-pattern" id="search-field" type="text" placeholder="Pesquisar"/>
                         <button type="submit">
                             <img src="assets/img/bx-search.svg" alt="Pesquisar"/>
                         </button>
