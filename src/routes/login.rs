@@ -28,7 +28,7 @@ impl Component for Login {
                 <form id="login-form" {onsubmit}>
                     <input name="user_email" type="email" placeholder="Endereço de e-mail"/>
                     <input name="user_password" type="password" placeholder="Senha"/>
-                    <input type="submit" value="Entrar" onclick={link.callback(|_| LoginMsg::TryToLog)}/>
+                    <input type="submit" class="button-dark" value="Entrar" onclick={link.callback(|_| LoginMsg::TryToLog)}/>
                 </form>
             </section>
         }
