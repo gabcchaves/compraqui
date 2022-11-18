@@ -28,6 +28,7 @@ body {
 	color: var(--graphite-gray);
 	display: flex;
 	flex-direction: column;
+	min-height: 100vh;
 }
 
 button, input[type=submit] {
@@ -74,7 +75,6 @@ a:hover {
 
 .main-container {
 	flex: 1;
-	min-height: 600px;
 }
 
 .button-dark {

@@ -1,26 +1,50 @@
 #login-container {
 	width: 100%;
-	height: 400px;
+	height: 100%;
 	flex: 1;
 	display: flex;
+	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+#login-container hr {
+	width: 80%;
+	color: var(--napier-green);
 }
 
 #login-form {
 	display: flex;
 	flex-direction: column;
-	width: 40%;
+	width: 80%;
+	margin-top: 15%;
 }
 
 #login-form input {
 	height: 50px;
 }
-
 #login-form input:nth-child(even) {
 	margin: 5px 0;
 }
 
 #login-form input[type=submit] {
 	margin-top: 5px;
+}
+
+@media screen and (min-width: 1081px) {
+	#login-container {
+		align-items: center;
+	}
+
+	#login-container hr {
+		width: 40%;
+	}
+
+	#login-form {
+		width: 40%;
+	}
+
+	#login-form {
+		margin-top: 5%;
+	}
 }

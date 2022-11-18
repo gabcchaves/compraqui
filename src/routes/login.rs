@@ -25,6 +25,8 @@ impl Component for Login {
 
         html! {
             <section id="login-container">
+                <h1>{"Entrar"}</h1>
+                <hr/>
                 <form id="login-form" {onsubmit}>
                     <input name="user_email" type="email" placeholder="Endereço de e-mail"/>
                     <input name="user_password" type="password" placeholder="Senha"/>
