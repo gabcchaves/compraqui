@@ -21,6 +21,8 @@ body {
 	font-family: 'Fira Sans', sans-serif;
 	font-size: 16px;
 	color: var(--graphite-gray);
+	display: flex;
+	flex-direction: column;
 }
 
 button, input[type=submit] {
@@ -57,4 +59,9 @@ a:hover {
 
 .icon-dark {
 	filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(70%) contrast(119%);
+}
+
+.main-container {
+	flex: 1;
+	min-height: 600px;
 }

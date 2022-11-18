@@ -1,0 +1,17 @@
+#main-footer {
+	background-color: var(--avocado-green);
+	color: var(--baby-powder);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	padding: 2% 0;
+	flex: 0;
+}
+
+#main-footer > div,
+#main-footer > p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}

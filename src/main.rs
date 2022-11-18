@@ -2,6 +2,7 @@ use yew::prelude::*;
 use yew_router::prelude::*;
 use plante::components::{
     header::Header,
+    footer::Footer,
 };
 use plante::routes::{
     login::Login,
@@ -16,7 +17,10 @@ fn app() -> Html {
             <Header>
             {""}
             </Header>
-            <Switch<Route> render={Switch::render(switch)}/>
+            <div class="main-container">
+                <Switch<Route> render={Switch::render(switch)}/>
+            </div>
+            <Footer/>
         </BrowserRouter>
     }
 }
