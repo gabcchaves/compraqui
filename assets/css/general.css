@@ -8,11 +8,16 @@
 	--baby-powder: #FEFEFA;
 	--old-wood: #F0EEE4;
 	--graphite-gray: #4B4E53;
+	--gold: #fdd700;
 }
 
 /* Redefinições */
 * {
 	transition: 0.2s;
+}
+
+*:hover {
+	outline: none;
 }
 
 body {
@@ -37,11 +42,17 @@ input {
 }
 
 button, input {
-	border-radius: 3px;
+	border-radius: 3px !important;
 }
 
 input:not(input[type=submit]) {
 	background-color: var(--old-wood);
+	padding-left: 3%;
+	border: 1px solid var(--napier-green);
+}
+
+input:not(input[type=submit]):focus {
+	border: 1px solid var(--gold);
 }
 
 a {
@@ -64,4 +75,18 @@ a:hover {
 .main-container {
 	flex: 1;
 	min-height: 600px;
+}
+
+.button-dark {
+	background-color: var(--avocado-green) !important;
+	color: var(--baby-powder) !important;
+	display: flex !important;
+	justify-content: center !important;
+	align-items: center !important;
+	text-align: center !important;
+}
+
+.button-dark:hover {
+	background-color: var(--kaitoke-green) !important;
+	cursor: pointer !important;
 }
