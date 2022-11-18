@@ -62,6 +62,10 @@
 	bottom: 0;
 }
 
+#main-header .search-area form button img {
+	filter: invert(1);
+}
+
 #main-header .dropdown-menu {
 	width: 10%;
 }
