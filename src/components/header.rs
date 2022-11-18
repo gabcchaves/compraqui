@@ -33,7 +33,7 @@ impl Component for Header {
             <header id="main-header">
                 <div class="dropdown-menu">
                     <button id="btn-menu">
-                        <img src="assets/img/bx-dots-horizontal-rounded.svg" alt="Menu"/>
+                        <img class="icon-light" src="assets/img/bx-dots-horizontal-rounded.svg" alt="Menu"/>
                     </button>
                     <div class="dropdown-content">
                         <Link<Route> to={Route::Login}>{"Entrar"}</Link<Route>>
@@ -41,7 +41,7 @@ impl Component for Header {
                     </div>
                 </div>
                 <div class="logo-area">
-                    <img src="assets/img/bx-leaf.svg" alt="Logo"/>
+                    <img class="icon-light" src="assets/img/bx-leaf.svg" alt="Logo"/>
                     <strong>{"Plantê"}</strong>
                 </div>
 
@@ -54,7 +54,7 @@ impl Component for Header {
                     <form id="search-form">
                         <input name="search-pattern" id="search-field" type="text" placeholder="Pesquisar"/>
                         <button type="submit">
-                            <img src="assets/img/bx-search.svg" alt="Pesquisar"/>
+                            <img class="icon-light" src="assets/img/bx-search.svg" alt="Pesquisar"/>
                         </button>
                     </form>
                 </div>
