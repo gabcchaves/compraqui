@@ -4,11 +4,13 @@ use crate::routes::{
     login::Login,
     register::Register,
     product::Product,
+    cart::Cart,
 };
 
 pub mod login;
 pub mod register;
 pub mod product;
+pub mod cart;
 
 #[derive(Clone, Routable, PartialEq)]
 pub enum Route {
@@ -40,7 +42,7 @@ pub fn switch(routes: &Route) -> Html {
             <Register/>
         },
         Route::Cart => html! {
-            <h1>{"Carrinho"}</h1>
+            <Cart/>
         },
         Route::Explore => html! {
             <h1>{"Explorar"}</h1>
