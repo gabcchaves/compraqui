@@ -120,6 +120,14 @@
 		display: block;
 	}
 
+	#main-header .search-area form button img {
+		filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(70%) contrast(119%);
+	}
+
+	#main-header .search-area form button img:hover {
+		filter: invert(48%) sepia(79%) saturate(2476%) hue-rotate(86deg) brightness(118%) contrast(119%) drop-shadow(0 0 1px #003000);
+	}
+
 	#main-header .user-options {
 		display: flex;
 		width: 15%;
