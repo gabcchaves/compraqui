@@ -1,10 +1,14 @@
 use yew::prelude::*;
 use yew_router::prelude::*;
-use crate::routes::login::Login;
-use crate::routes::register::Register;
+use crate::routes::{
+    login::Login,
+    register::Register,
+    product::Product,
+};
 
 pub mod login;
 pub mod register;
+pub mod product;
 
 #[derive(Clone, Routable, PartialEq)]
 pub enum Route {
@@ -18,6 +22,8 @@ pub enum Route {
     Cart,
     #[at("/explore")]
     Explore,
+    #[at("/product")]
+    Product,
     #[at("/404")]
     NotFound,
 }
@@ -38,6 +44,9 @@ pub fn switch(routes: &Route) -> Html {
         },
         Route::Explore => html! {
             <h1>{"Explorar"}</h1>
+        },
+        Route::Product => html! {
+            <Product/>
         },
         Route::NotFound => html! {
             <h1>{"Não encontrado"}</h1>
