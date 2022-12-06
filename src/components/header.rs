@@ -41,8 +41,10 @@ impl Component for Header {
                     </div>
                 </div>
                 <div class="logo-area">
-                    <img class="icon-light" src="assets/img/bx-leaf.svg" alt="Logo"/>
-                    <strong>{"Plantê"}</strong>
+                    <Link<Route> to={Route::Home}>
+                        <img class="icon-light" src="assets/img/bx-leaf.svg" alt="Logo"/>
+                        <strong>{"Plantê"}</strong>
+                    </Link<Route>>
                 </div>
 
                 <div class="main-options">
