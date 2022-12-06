@@ -5,12 +5,14 @@ use crate::routes::{
     register::Register,
     product::Product,
     cart::Cart,
+    home::Home,
 };
 
 pub mod login;
 pub mod register;
 pub mod product;
 pub mod cart;
+pub mod home;
 
 #[derive(Clone, Routable, PartialEq)]
 pub enum Route {
@@ -33,7 +35,7 @@ pub enum Route {
 pub fn switch(routes: &Route) -> Html {
     match routes {
         Route::Home => html! {
-            <h1>{"Página Inicial"}</h1>
+            <Home/>
         },
         Route::Login => html! {
             <Login/>
