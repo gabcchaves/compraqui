@@ -26,7 +26,7 @@ impl Component for Product {
     fn view(&self, ctx: &Context<Self>) -> Html {
         let link = ctx.link();
         html! {
-            <section id="product-container">
+            <section id="container-product">
                 <div class="img-container"></div>
                 <div class="product-info-container">
                     <Link<Route> to={Route::Explore}><img src="assets/img/bx-chevron-left.svg" alt="Voltar"/></Link<Route>>

@@ -24,7 +24,7 @@ impl Component for Login {
         };
 
         html! {
-            <section id="login-container">
+            <section id="container-login">
                 <h1>{"Entrar"}</h1>
                 <hr/>
                 <form id="login-form" {onsubmit}>

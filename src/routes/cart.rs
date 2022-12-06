@@ -23,7 +23,7 @@ impl Component for Cart {
     fn view(&self, ctx: &Context<Self>) -> Html {
         let link = ctx.link();
         html! {
-            <section id="cart-container">
+            <section id="container-cart">
                 <h1>{"Carrinho"}</h1>
                 <button id="btn-pay" class="button-dark">{"Pagar"}</button>
                 <hr/>

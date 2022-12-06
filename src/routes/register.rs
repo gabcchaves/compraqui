@@ -27,7 +27,7 @@ impl Component for Register {
             })
         };
         html! {
-            <section id="register-container">
+            <section id="container-register">
                 <h1>{"Cadastrar-se"}</h1>
                 <hr/>
                 <form id="register-form" {onsubmit}>
