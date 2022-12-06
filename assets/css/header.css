@@ -5,6 +5,8 @@
 	align-items: center;
 	height: 10vh;
 	padding: 0 5%;
+	position: sticky;
+	top: 0;
 }
 
 #main-header * {
