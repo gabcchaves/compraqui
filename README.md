@@ -25,6 +25,7 @@ Dependências:
 - Rust e ferramentas relacionadas. [RustUp](https://rustup.rs/).  
 - [Trunk](https://trunkrs.dev/)  
 - [Yew](https://yew.rs/)  
+- [wasm-bindgen](https://lib.rs/crates/wasm-bindgen)
 
 **Procedimento**:  
 1. Descarregar/clonar este repositório:
